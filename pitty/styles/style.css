@@ -1,0 +1,127 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#headermenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: grey;
+    transition: 0.3s all;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 56px;
+    line-height: 10px;
+}
+
+#inicio {
+    line-height: 150px;
+    max-width: 380px;
+}
+
+#texto {
+    line-height: normal;
+    max-width: fit-content;
+}
+
+#imagensbio {
+    align-items: center;
+    margin: auto;
+    display: block;
+}
+
+#titulodisco {
+    font-weight: 300;
+    align-items: center;
+    margin: auto;
+    display: block;
+}
+
+#discografia {
+    transition: 5s;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#imagemtransicao:hover {
+    transition: 0.3s all;
+}
+
+iframe {
+    align-items: center;
+    margin: auto;
+    display: block;
+}
+
+.agenda {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#botao {
+    width: 200px;
+    height: 25px;
+}
+
+#agen {
+    color: black
+}
+
+
+footer {
+    color: white;
+    background-color: #1C1C1C;
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+#footer_content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+}
+
+#footer_copyrigth {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
